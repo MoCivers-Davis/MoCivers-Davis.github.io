@@ -1,3 +1,4 @@
+![screenshot of Portfolio](img/Portfolio.png)
 # Mo Civers-Davis Portfolio
 
 ## Description
