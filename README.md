@@ -14,14 +14,15 @@ As you review this project you will learn a little about me, my journey on the p
 About
 Details about me
 My contact Information
-  - Linkedin
-  - GitHub Profile
-  - Resume
-  - Google Voice Phone Number
+  * Linkedin
+  * GitHub Profile
+  * Resume
+  * Google Voice Phone Number
 Portfolio
-  - Stats On The Fly App 
-  - Password Generator App
-  - Weather Dashboard App
+  * Stats On The Fly App 
+  * Password Generator App
+  * Weather Dashboard App
+  * COVID-19 Tracking App
 Contact
   - Free-form text outreach to me
   
