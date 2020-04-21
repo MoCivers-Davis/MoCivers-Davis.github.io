@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=`, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mo's Portfolio</title>
-    <!--Added title-->
+    <!--added link to Bootstrap CDN above-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!--added link to Bootstrap CDN above-->
+    <!-- Added font awesome script -->
+    <script src="https://kit.fontawesome.com/f4be7e66bc.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light background-color: #e3f2fd;">
+    <nav class="navbar navbar-expand-lg navbar-dark background-color: #e3f2fd;">
         <a class="navbar-brand">Mo Civers-Davis</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,21 +31,31 @@
         </div>
     </nav>
 
+    <header>
+        <div class="flex-container">
+            <a href="https://www.linkedin.com/in/r-maurice-civers-davis-11978777/" target="_blank">Linkedin</a>
+            <a href="https://github.com/MoCivers-Davis" target="_blank">GitHub</a>
+            <a href="assets/software-developer-2020B.pdf">Resume</a>
+            <!-- <h5 class="phoneNumber">(484)367-5720</h5> -->
+        </div>
+    </header>
+
+    <br> <br>
+
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
                 <div class="card mb-3">
                     <div class="card-body">
                         <h2 class="card-title">About Me</h2>
-                        <img src="img/IMG_3367.JPG" class="float-left mr-2" alt="photo of mo" width="200" height="200">
-                        <div class="card-text">I am Mo Civers-Davis. I'm originally from Georgia but I have lived in
+                        <img src="img/mo.jpeg" class="float-left mr-2" alt="photo of mo" width="190" height="250">
+                        <div class="card-text">Hi, I am Mo Civers-Davis. I'm originally from Georgia but I have lived in
                             Philadelphia for almost 18 years. I am a military veteran of the United States Air Force.
                             I currently work as a civilian for the United States Department of the Navy. As a U.S.
                             Navy Program Manager I oversee multiple naval programs that range from STEM, cyber
                             and data science.
                             <br><br>
-                            I am new to software development. Prior to this coding program I had no experience in
-                            coding. Althougth no coding experience, I have always been interested in learning but
+                            Although new to web/software development, I have always been interested in learning but
                             was to afraid to try. Since becoming a Dad, I have been more inspired to follow my dream
                             of becoming a coder.
                             <br><br>
@@ -55,17 +67,39 @@
                             reviewing some of my most recent projects
                         </div>
                         <br>
-                        <div>
+                        <!-- <div class="contacts">
                             <h4>Mo's Contact Info:</h4>
-                            <p><a href="https://www.linkedin.com/in/r-maurice-civers-davis-11978777/" target="_blank">Connect via
+                            <p><a href="https://www.linkedin.com/in/r-maurice-civers-davis-11978777/"
+                                    target="_blank">Connect via
                                     Linkedin</a></p>
                             <p><a href="https://github.com/MoCivers-Davis" target="_blank">Mo's GitHub Profile</a></p>
                             <p><a href="assets/software-developer-2020B.pdf">Mo's Resume</a></p>
-                            <h6 class="phoneNumber">Phone Number: 484-367-5720</h6>  
-                        </div>
+                            <h6 class="phoneNumber">Phone Number: 484-367-5720</h6>
+                        </div> -->
                     </div>
                 </div>
             </div>
+
+            <div class="col-lg-4">
+                <br> <br>
+                <br>
+                <div class="card tech mb-3">
+                    <h4 class="card2">Technical Skills</h4>
+                    <h6 class="frontEnd">Front End Developmet:</h6>
+                    <ul>
+                        <li>JavaScript, Node.js, React.js, Handlebars, HTML, CSS, Bootstrap, Foundation</li>
+                    </ul>
+                    <h6 class="backEnd">Back End Developmet:</h6>
+                    <ul>
+                        <li>JavaScript, React.js, MySQL, MongoDB</li>
+                    </ul>
+                    <h6 class="deployment">Deployment:</h6>
+                    <ul>
+                        <li>GitHub, GitHub Pages, Heroku</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </div>
 </body>
