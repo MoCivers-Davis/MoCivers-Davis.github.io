@@ -42,7 +42,7 @@
 body {
     background-color: black;
 }
-.card-body {
+.about {
     background-color: black;
     color: white;
 font-weight: 100;
@@ -56,11 +56,26 @@ font-weight: 100;
 .card2 {
     text-align: center;
 }
-.flex-container > div {
-    align-items: center;
+.header {
+   justify-content: space-evenly;
+   display: flex;
 }
 
 .tech {
     padding-left: 5px;
-    /* margin-right: 5px; */
+    padding-right: 2px;
+}
+.portfolio {
+    color: white;
+}
+.tech {
+    border-style: double;
+    /* background-color: black;
+    color: white; */
+}
+.num {
+    color: 007bff;
+}
+ul {
+    font-weight: 150;
 }
