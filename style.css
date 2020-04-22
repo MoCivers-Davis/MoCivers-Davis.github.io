@@ -35,8 +35,8 @@
 .card-deck {
     display: flex;
     justify-content: center;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 5pt;
+    margin-right: 5pt;
     flex-wrap: wrap;
 }
 body {
@@ -55,6 +55,7 @@ font-weight: 100;
 }
 .card2 {
     text-align: center;
+    padding-top: 4pt;
 }
 .header {
    justify-content: space-evenly;
@@ -82,4 +83,16 @@ ul {
 .techArea {
     font-weight: 150;
     font-size: large;
+}
+
+.cardWrap {
+    margin-left: 10pt;
+    margin-right: 5pt;
+    padding-left: 5pt;
+    padding-right: 5pt;
+}
+.projectType {
+    text-align: center;
+    color: rgb(87, 0, 128);
+    padding-top: 2pt;
 }
