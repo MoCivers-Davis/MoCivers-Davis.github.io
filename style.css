@@ -23,6 +23,8 @@
     color: white;
     text-align: center;
     padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: small;
 }
 .phoneNumber {
     color: #007bff;
